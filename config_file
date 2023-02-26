@@ -1,0 +1,17 @@
+[module_1]
+# config-1
+config_1 = config-1-val
+
+[module_2]
+# config-2
+config_2 = config-2-val
+# default if not overridden
+var_default_value = 99
+
+[logging]
+# Rotating log file count
+log_file_count = 3
+# Log file size in bytes - 2MB
+log_file_size = 2097152
+# log file
+log_file = ./log_file.log
